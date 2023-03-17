@@ -15,10 +15,10 @@ class ProductoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
+   /* public function __construct()
     {
         $this->middleware('auth:api');
-    }
+    }*/
     
     public function index()
     {
@@ -45,7 +45,7 @@ class ProductoController extends Controller
             'descripcion'=>'required',
             'subcategoria_id'=>'required',
             'iva_id'=>'required',
-            'marce_id'=>'required']);
+            'marca_id'=>'required']);
         if($validator->fails()){
             return response()->json($validator->errors(),422); 
         }
@@ -81,7 +81,7 @@ class ProductoController extends Controller
             'descripcion'=>'required',
             'subcategoria_id'=>'required',
             'iva_id'=>'required',
-            'marce_id'=>'required'       ]);
+            'marca_id'=>'required'       ]);
         if($validator->fails()){
             return response()->json($validator->errors(),422); 
         }

@@ -15,10 +15,13 @@ class CategoriaController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+     //Requiere autentificación
     public function __construct()
     {
         $this->middleware('auth:api');
     }
+
+    //Método GET
     public function index()
     {
         //
@@ -32,6 +35,7 @@ class CategoriaController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    //Método POST
     public function store(Request $request)
     {
         //
@@ -67,6 +71,7 @@ class CategoriaController extends Controller
      * @param  \App\Models\Categoria  $categoria
      * @return \Illuminate\Http\Response
      */
+    //Método PUT
     public function update(Request $request, $id)
     {
         //
@@ -88,6 +93,7 @@ class CategoriaController extends Controller
      * @param  \App\Models\Categoria  $categoria
      * @return \Illuminate\Http\Response
      */
+    //Método DELETE
     public function destroy($id)
     {
         Categoria::destroy($id);
