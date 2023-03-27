@@ -15,7 +15,7 @@ class ProductoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-   /* public function __construct()
+ /*   public function __construct()
     {
         $this->middleware('auth:api');
     }*/
@@ -23,10 +23,13 @@ class ProductoController extends Controller
     public function index()
     {
         //
-        $productos=DB::select('SELECT * FROM v_productos');
-       // dd($productos);
-       // return Producto::all();
-        return $productos;
+        $productos=DB::select('SELECT * FROM v_productos ORDER BY id DESC');
+        $total_productos = count($productos);
+        return response()->json([
+            'productos' => $productos,
+            'total_productos' => $total_productos
+        ]);
+    
     }
 
     /**

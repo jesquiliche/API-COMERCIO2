@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -32,3 +33,5 @@ Route::apiResource('v1/proveedores', App\Http\Controllers\Api\V1\ProveedorContro
 Route::apiResource('v1/provincias', App\Http\Controllers\Api\V1\ProvinciaController::class);
 Route::apiResource('v1/subcategorias', App\Http\Controllers\Api\V1\SubcategoriaController::class);
 Route::apiResource('v1/marcas', App\Http\Controllers\Api\V1\MarcaController::class);
+
+Route::post('v1/upload-image', [App\Http\Controllers\Api\V1\ImageController::class,'store']);
