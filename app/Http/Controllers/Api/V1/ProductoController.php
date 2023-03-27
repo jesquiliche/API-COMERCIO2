@@ -24,11 +24,8 @@ class ProductoController extends Controller
     {
         //
         $productos=DB::select('SELECT * FROM v_productos ORDER BY id DESC');
-        $total_productos = count($productos);
-        return response()->json([
-            'productos' => $productos,
-            'total_productos' => $total_productos
-        ]);
+        return $productos;
+        
     
     }
 
