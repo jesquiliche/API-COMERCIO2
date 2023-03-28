@@ -21,7 +21,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Samsung WW90TA046AE/EC",
                 "descripcion"=>"Lavadora carga frontal - Samsung WW90TA046AE/EC, 9 kg, 1400 rpm, EcoBubble, 14 programas, Blanco",
                 "precio"=>469,
-                "imagen"=>"fee_786_587_png.webp",
+                "imagen"=>"/storage/img/fee_786_587_png.webp",
                 "subcategoria_id"=>3,
                 "iva_id"=>3,
                 "marca_id"=>1,
@@ -31,7 +31,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Bosch WAN24264ES",
                 "descripcion"=>"Lavadora carga frontal - Bosch WAN24264ES, 8 kg, 16 Programas, 1200 rpm, Blanco",
                 "precio"=>449,
-                "imagen"=>"fee_786_587_png.webp",
+                "imagen"=>"/storage/img/fee_786_587_png.webp",
                 "subcategoria_id"=>3,
                 "iva_id"=>3, //BOSCH
                 "marca_id"=>1,
@@ -42,7 +42,7 @@ class ProductoSeeder extends Seeder
                 "descripcion"=>"Lavadora carga frontal - Candy Smart Pro CSO 14105 TE/S, 10 kg, 1400rpm, WIFI, Vapor, 9 Ciclos rápidos, Blanco
                 ",
                 "precio"=>349,
-                "imagen"=>"candy_png.webp",
+                "imagen"=>"/storage/img/candy_png.webp",
                 "subcategoria_id"=>3,
                 "iva_id"=>3, 
                 "marca_id"=>1,//CANDY
@@ -52,7 +52,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Samsung WW90T554DAW/S3",
                 "descripcion"=>"Lavadora carga frontal - Samsung WW90T554DAW/S3, 9 kg, 1400 rpm, 22 programas, AddWash™, Blanco",
                 "precio"=>499,
-                "imagen"=>"fee_786_587_png.webp",
+                "imagen"=>"/storage/img/fee_786_587_png.webp",
                 "subcategoria_id"=>3,
                 "iva_id"=>3, 
                 "marca_id"=>1,//SAMSUNG
@@ -62,7 +62,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"LG GBB62PZGGN",
                 "descripcion"=>"Frigorífico combi - LG GBB62PZGGN, 384 l, No Frost, 203 cm, Inox",
                 "precio"=>749,
-                "imagen"=>"frigorifico_png.webp",
+                "imagen"=>"/storage/img/frigorifico_png.webp",
                 "subcategoria_id"=>1,
                 "iva_id"=>3, 
                 "marca_id"=>1,//SAMSUNG
@@ -71,7 +71,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Candy CHICS 5182WN",
                 "descripcion"=>"Frigorífico combi - Candy CHICS 5182WN, 262l, Cíclico, 180cm, LED, Cierre puerta suave, Blanco",
                 "precio"=>409,
-                "imagen"=>"frigorifico3.webp",
+                "imagen"=>"/storage/img/frigorifico3.webp",
                 "subcategoria_id"=>1,
                 "iva_id"=>3, 
                 "marca_id"=>1,//CANDY
@@ -80,7 +80,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Svan SVF143C",
                 "descripcion"=>"Frigorífico 2 puertas - SVAN Frigorífico 2 Puertas Svan SVF143C Blanco. Cíclico. Bajo nivel sonoro. Apertura tipo Uñero. A+/F, Cíclico, Blanco",
                 "precio"=>258,
-                "imagen"=>"freegorifico4.webp",
+                "imagen"=>"/storage/img/freegorifico4.webp",
                 "subcategoria_id"=>1,
                 "iva_id"=>3, 
                 "marca_id"=>1,//SVAN
@@ -89,7 +89,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Candy CMDDS 5142WN",
                 "descripcion"=>"Frigorífico dos puertas - Candy CMDDS 5142WN, 204l, Cíclico, 143cm, Puertas reversibles, LED, Blanco",
                 "precio"=>311,
-                "imagen"=>"frigorifixo4.webp",
+                "imagen"=>"/storage/img/frigorifixo4.webp",
                 "subcategoria_id"=>1,
                 "iva_id"=>3, 
                 "marca_id"=>1,//SVAN
@@ -98,7 +98,7 @@ class ProductoSeeder extends Seeder
                 "nombre"=>"Indesit TIHA 17 V",
                 "descripcion"=>"Frigorífico dos puertas - Indesit TIHA 17 V, 300 L, Low Frost, 172 cm, Blanco",
                 "precio"=>459,
-                "imagen"=>"frigorifico6.webp",
+                "imagen"=>"/storage/img/frigorifico6.webp",
                 "subcategoria_id"=>1,
                 "iva_id"=>3, 
                 "marca_id"=>1,//Indesit
