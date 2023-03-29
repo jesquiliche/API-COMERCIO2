@@ -22,6 +22,7 @@ return new class extends Migration
             `p`.`nombre` AS `nombre`,
             `p`.`descripcion` AS `descripcion`,
             `p`.`iva_id` AS `iva_id`,
+            `p`.`precio` AS `precio`,
             `s`.`nombre` AS `subcategoria`,
             `c`.`nombre` AS `categoria`,
             `m`.`nombre` AS `marca`,
