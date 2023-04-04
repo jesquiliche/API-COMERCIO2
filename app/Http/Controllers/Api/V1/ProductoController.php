@@ -41,7 +41,7 @@ class ProductoController extends Controller
        
         $validator = Validator::make($request->all(), [
             'precio'=>'required',
-            'nombre'=>'required',
+            'nombre'=>'required|unique:productos',
             'descripcion'=>'required',
             'subcategoria_id'=>'required',
             'iva_id'=>'required',
@@ -77,7 +77,7 @@ class ProductoController extends Controller
         //
         $validator = Validator::make($request->all(), [
             'precio'=>'required',
-            'nombre'=>'required',
+            'nombre'=>'required|unique:productos',
             'descripcion'=>'required',
             'subcategoria_id'=>'required',
             'iva_id'=>'required',
