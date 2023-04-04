@@ -14,12 +14,9 @@ return new class extends Migration
      */
     public function up()
     {
-        
+
         DB::statement("CREATE OR REPLACE
-        ALGORITHM = UNDEFINED 
-        DEFINER = `admin`@`localhost` 
-        SQL SECURITY DEFINER
-    VIEW `v_ofertas` AS
+        VIEW `v_ofertas` AS
         SELECT 
             `v`.`id` AS `id`,
             `v`.`nombre` AS `nombre`,

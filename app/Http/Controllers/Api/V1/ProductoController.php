@@ -76,12 +76,12 @@ class ProductoController extends Controller
     {
         //
         $validator = Validator::make($request->all(), [
-            'precio'=>'required',
-            'nombre'=>'required|unique:productos',
+            'precio'=>'required|numeric',
+            'nombre'=>'required',
             'descripcion'=>'required',
-            'subcategoria_id'=>'required',
-            'iva_id'=>'required',
-            'marca_id'=>'required'       ]);
+            'subcategoria_id'=>'required|numeric',
+            'iva_id'=>'required|numeric',
+            'marca_id'=>'required|numeric'       ]);
         if($validator->fails()){
             return response()->json($validator->errors(),422); 
         }
