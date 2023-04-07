@@ -14,16 +14,16 @@ class PoblacionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
+ /*   public function __construct()
     {
         $this->middleware('auth:api');
-    }
+    }*/
 
     public function index()
     {
         //
         
-        return Poblacion::all()->skip(1000)->take(20);
+        return Poblacion::all();
     }
 
     /**
